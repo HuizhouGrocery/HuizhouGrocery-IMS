@@ -24,11 +24,11 @@ class DatabaseApp:
         self.root = root
         self.root.title("SQLite Database Huizhou Grocery Inventory Management System")
         self.root.geometry("1100x800")
-        self.root.tk.call("wm", "iconphoto", root._w, tk.PhotoImage(file=r"C:\Users\18852\Desktop\Order_image\logo-removebg-preview.png"))
+        self.root.tk.call("wm", "iconphoto", root._w, tk.PhotoImage(file=r"Your Current Working Directory\logo.png"))
 
 
         # Create a database or connect to an existing one
-        self.conn = sqlite3.connect(r"C:\Users\18852\Desktop\Order_image\\test.db")
+        self.conn = sqlite3.connect(r"Your Database Working Directory\\test.db")
         self.cursor = self.conn.cursor()
 
         # # Create a table if it doesn't exist
@@ -37,7 +37,7 @@ class DatabaseApp:
 
         # Put logo image into GUI
 
-        self.image = PhotoImage(file=r"C:\Users\18852\Desktop\Order_image\logo-removebg-preview.png")
+        self.image = PhotoImage(file=r"Your Current Working Directory\logo.png")
         self.image_label = ttk.Label(root, image=self.image)
         self.image_label.place(x=500, y=20, width=110, height=127)
 
