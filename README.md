@@ -67,7 +67,8 @@ We have created a password-required function when you need to add or delete prod
 
 You may feel this Python code let SQLite DB Browser become a simple inventory management system. Definitely, you could add categories, brands, and descriptions in there. It is easy to check all product details.
 
-Python have many fuctions we could explore, if you want to 
+Python has many functions we could explore, and we hope Python could be less code and more function.
+
 
 
 
